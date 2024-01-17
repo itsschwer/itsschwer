@@ -5,4 +5,17 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: monospace;
 }
+
+nav {
+    position: fixed;
+    margin: 0.5rem;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.hey { font-size: 2rem; }
