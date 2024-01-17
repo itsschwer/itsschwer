@@ -15,7 +15,15 @@ nav {
     right: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.1rem;
+    gap: 0.25rem;
+}
+nav > a > img { display: block }
+
+@media (prefers-color-scheme: light) {
+    .avatar {
+        background-color: #0D1117;
+        border-radius: 50%;
+    }
 }
 
 .hey { font-size: 2rem; }
